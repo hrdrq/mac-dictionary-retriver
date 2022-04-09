@@ -7,6 +7,11 @@ make
 make start-server
 ```
 
+### [Note] Build error in Big Sur
+https://stackoverflow.com/questions/70287733/sdl2-doesnt-compile-on-macos-big-sur
+
+`export SDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/`
+
 ## Usage
 
 ### Params
