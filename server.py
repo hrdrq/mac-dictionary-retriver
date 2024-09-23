@@ -6,7 +6,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import parse_qs, urlparse
 import os
 
-address = ('localhost', 8768)
+address = ('', 8768)
 
 class RetriverHandler(BaseHTTPRequestHandler):
     def do_GET(self):
